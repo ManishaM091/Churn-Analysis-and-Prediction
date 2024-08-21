@@ -36,7 +36,7 @@ The dataset used for this project includes 2666 rows (customers) and 20 columns 
 - The dataset was split into two subsets using an 70-30 ratio using random sampling which can be seen through the workflow. Joins and unions as well as formulas and filters were used in order to achieve this:
   - **Training Set**: Used for model training and cross-validation.
   - **Test Set**: Reserved for final model evaluation and to assess its performance on unseen data.
-    Both the datasets can be found in [Alteryx Desinger Cloud Folder](AlteryxDesignerCloud).
+  Both the datasets can be found in [Alteryx Desinger Cloud Folder](AlteryxDesignerCloud).
 
 ![Alteryx Designer Cloud Workflow](AlteryxDesignerCloud/Workflow.png)
   
