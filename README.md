@@ -128,7 +128,7 @@ Using the Alteryx AutoML evaluation and information gathered such as feature imp
   
 ![ChurnAnalysis](TableauDashboards/ChurnAnalysis.png)
 
-For more intertive dashboard goto [Link](https://public.tableau.com/app/profile/manisha.malhotra4221/viz/ChurnanalysisDashboard/ChurnAnalysis)
+For more interactive dashboard goto [Link](https://public.tableau.com/app/profile/manisha.malhotra4221/viz/ChurnanalysisDashboard/ChurnAnalysis)
   
 2. **Prediction Dashboard**:
    - **Probability Distribution**: A overlapping histogram of churn prediction probabilities.
@@ -136,7 +136,7 @@ For more intertive dashboard goto [Link](https://public.tableau.com/app/profile/
   
 ![ChurnPredictionAnalysis](TableauDashboards/ChurnPredictionAnalysis.png)
 
-For more intertive dashboard goto [Link](https://public.tableau.com/app/profile/manisha.malhotra4221/viz/ChurnPredictionanalysisDashboard/ChurnPredictionAnalysis)
+For more interactive dashboard goto [Link](https://public.tableau.com/app/profile/manisha.malhotra4221/viz/ChurnPredictionanalysisDashboard/ChurnPredictionAnalysis)
 
 ## Key Insights and Recommendations
 ### Insights
