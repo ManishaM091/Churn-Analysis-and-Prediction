@@ -81,16 +81,26 @@ All these Tableau workbooks are [here](TableauEDAworkbooks) and you can also che
 - **Training**: The model was trained on the `training` [dataset](AlteryxDesignerCloud/Training.csv) which was created though Alteryx designer cloud.
 
 ### Model Evaluation
-The Alteryx AutoML provided a [PPT](AlteryxMachineLearningModel/aml_churnmodel(1).pptx) which has the ROC curve, Confusion Matrix and the key features and its importance auto calculated the model.
+The Alteryx AutoML provided a [PPT](AlteryxMachineLearningModel) which has the ROC curve, Confusion Matrix and the key features and its importance auto calculated the model.
 
-- **ROC Curve**: The ROC curve for the model indicated excellent discriminative ability, with an area under the curve (AUC) of 0.91, signifying a high true positive rate with minimal false positives.
+- **ROC Curve**: The ROC curve for the model indicated an area under the curve of 0.93, signifying a high true positive rate with minimal false positives.
+  
+![ROC](AlteryxMachineLearningModel/ROC.png)
+
+
 - **Confusion Matrix**:
   - **True Positives**: The model correctly identified 87% of the churned customers.
   - **False Positives**: The model incorrectly labeled 5% of non-churned customers as churned, which is within an acceptable range for this type of predictive modeling.
-  - **Accuracy**: The overall accuracy of the model was approximately 89%, indicating that the model is reliable for predicting churn.
+
+![Confusion](AlteryxMachineLearningModel/Confusion.png)
+
 - **Feature Importance**:
   - **Top Features**: Total day charge, customer service calls, and international plan were among the top features influencing the model's predictions.
   - **Insights**: These features highlight the importance of customer usage patterns and service satisfaction in predicting churn.
+ 
+![Confusion](AlteryxMachineLearningModel/FeatureImportance.png)
+
+ALL THESE GRAPHS AND MODEL EVALUATION AS WELL AS INSIGHTS ARE PROVIDED BY ALTERYX AUTOML.
 
 ### Tableau Prediction Analysis
 - **Probability Distribution**:
