@@ -73,6 +73,8 @@ Both the datasets can be found in [Alteryx Desinger Cloud Folder](AlteryxDesigne
 
 ![ChargesvsChurnRate](TableauEDAworkbooks/ChargesVsChurn.png)
 
+All these Tableau workbooks are [here](TableauEDAworkbooks) and you can also check them on my [Tableau Public](https://public.tableau.com/app/profile/manisha.malhotra4221/vizzes)
+
 ## Predictive Modeling
 ### Model Selection and Training
 - **Algorithm**: XGBoost, a gradient boosting decision tree algorithm, was chosen for its robustness and high performance in binary classification tasks.
