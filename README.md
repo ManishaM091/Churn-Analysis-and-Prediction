@@ -4,13 +4,13 @@
 This project involves an in-depth analysis of customer churn within a telecom company, utilizing the Orange Telecom Churn Dataset from kaggle. The primary objective is to identify the key factors leading to customer churn and to develop a predictive model to accurately classify customers based on their likelihood to churn. The analysis and modeling efforts are supplemented with rich visualizations to provide actionable insights into customer behavior.
 
 ### Tools and Technologies
-- **Alteryx Cloud**: For data preparation, feature engineering, and building the predictive model.
+- **Alteryx Designer Cloud**: For data preparation, feature engineering, creating workflow. and building the predictive model.
+- **Alteryx AutoML Cloud**: XGBoost-A machine learning algorithm used for the classification model in this project.
 - **Tableau Public**: For creating dashboards and visualizations to analyze churn and present the model's findings.
-- **XGBoost**: A machine learning algorithm used for the classification model in this project.
 
 ## Data Preparation
 ### Dataset Overview
-The dataset used for this project includes 3,333 customer records with 21 attributes each. These attributes include customer demographics, account information, usage metrics, and a binary target variable indicating whether the customer has churned.
+The dataset used for this project includes 2666 rows (customers) and 20 columns (features) each. These attributes include customer demographics, account information, usage metrics, and a binary target variable indicating whether the customer has churned.
 
 ### Key Attributes
 - **State**: The US state in which the customer resides.
@@ -23,20 +23,21 @@ The dataset used for this project includes 3,333 customer records with 21 attrib
 - **Total Day, Eve, Night, Intl Charges**: The total charges incurred by the customer for day, evening, night, and international calls.
 - **Churn**: Binary target variable where 1 indicates the customer churned and 0 indicates they did not.
 
-### Data Cleaning and Feature Engineering
+### Alteryx Designer Cloud - Data Cleaning and Feature Engineering
 1. **Data Cleaning**:
    - Handled missing values and ensured consistency in data types across all attributes.
    - Removed any obvious outliers that could skew the model's predictions.
 
 2. **Feature Engineering**:
    - **Derived Features**: Created new features by normalizing usage metrics (e.g., `DayChargePerMinute`, `EveChargePerMinute`, `NightChargePerMinute`, `IntChargePerMinute`) to enhance the model's ability to predict churn.
-   - **Transformation**: Applied logarithmic transformations to skewed features to stabilize variance and normalize the data.
-   - **Binarization**: Converted categorical features such as `International Plan` and `Voice Mail Plan` into binary dummy variables.
+   
 
 ### Data Splitting
-- The dataset was split into two subsets using an 80-20 ratio:
-  - **Training Set (churn-80)**: Used for model training and cross-validation.
-  - **Test Set (churn-20)**: Reserved for final model evaluation and to assess its performance on unseen data.
+- The dataset was split into two subsets using an 70-30 ratio using random sampling which can be seen through the workflow. Joins and unions as well as formulas and filters were used in order to achieve this:
+  - **Training Set**: Used for model training and cross-validation.
+  - **Test Set**: Reserved for final model evaluation and to assess its performance on unseen data.
+[Alteryx Workflow](/Alteryx Designer Cloud/Workflow.png)
+  
 
 ## Exploratory Data Analysis (EDA)
 ### Churn Rate Analysis
