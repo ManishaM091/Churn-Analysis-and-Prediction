@@ -127,12 +127,16 @@ Using the Alteryx AutoML evaluation and information gathered such as feature imp
    - **International Plan Analysis**: A comparative analysis of churn rates between customers with and without international plans with a pie chart.
   
 ![ChurnAnalysis](TableauDashboards/ChurnAnalysis.png)
+
+For more intertive dashboard goto [Link](https://public.tableau.com/app/profile/manisha.malhotra4221/viz/ChurnanalysisDashboard/ChurnAnalysis)
   
 2. **Prediction Dashboard**:
    - **Probability Distribution**: A overlapping histogram of churn prediction probabilities.
    - **Customer Segmentation**: Clustered visualizations of customer segments based on their predicted churn risk, providing actionable insights for targeted retention strategies.
   
 ![ChurnPredictionAnalysis](TableauDashboards/ChurnPredictionAnalysis.png)
+
+For more intertive dashboard goto [Link](https://public.tableau.com/app/profile/manisha.malhotra4221/viz/ChurnPredictionanalysisDashboard/ChurnPredictionAnalysis)
 
 ## Key Insights and Recommendations
 ### Insights
