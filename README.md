@@ -42,25 +42,36 @@ Both the datasets can be found in [Alteryx Desinger Cloud Folder](AlteryxDesigne
 ![Alteryx Designer Cloud Workflow](AlteryxDesignerCloud/Workflow.png)
   
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA) in Tableau Public
 ### Churn Rate Analysis
 - **Overall Churn Rate**: The dataset revealed that approximately 14.5% of customers had churned, indicating a relatively high churn rate.
+
+![Churn Rate](TableauEDAworkbooks/ChurnRate.png)
+
 - **State-wise Churn Rate**:
-  - **Top States**: Certain states exhibited significantly higher churn rates. These states were further analyzed to understand regional factors that might contribute to higher churn.
+  - **Top States**: Certain states exhibited significantly higher churn rates such as Texas, New Jersey and California.
   - **Insights**: States with higher churn rates often correlated with higher customer service call frequencies and larger customer bases, indicating potential service quality issues.
+
+![Churn Rate](StateVsChurn/TableauEDAworkbooks/StateVsChurn.png)
 
 ### Customer Service Calls vs. Churn Rate
 - **Correlation**: A strong positive correlation was observed between the number of customer service calls and the likelihood of churn. Customers who made more than 3 calls were significantly more likely to churn.
 - **Insight**: This suggests that customers who are dissatisfied with service or facing recurring issues are more prone to churn, highlighting the importance of first-call resolution.
 
+![CSCvsChurnRate](TableauEDAworkbooks/CSC-ChurnRate.png)
+
 ### International Plan vs. Churn Rate
 - **Observation**: Customers with an international plan had a higher churn rate compared to those without. 
 - **Insight**: This could indicate that the international plan may not be meeting customer expectations or that international callers are more price-sensitive and thus more likely to switch providers.
+
+![IPvsChurnRate](TableauEDAworkbooks/IPvsChurn.png)
 
 ### Charges vs. Churn Rate
 - **Day Charges**: Higher day charges correlated with a higher likelihood of churn, suggesting that customers who incur higher costs during peak hours may be more price-sensitive.
 - **Night Charges**: Interestingly, higher night charges correlated with lower churn rates, possibly indicating that customers who utilize off-peak hours may find the service more valuable.
 - **International Charges**: Higher international charges showed a strong correlation with churn, reinforcing the idea that international customers are more likely to leave if they perceive the service as too costly.
+
+![ChargesvsChurnRate](TableauEDAworkbooks/ChargesVsChurn.png)
 
 ## Predictive Modeling
 ### Model Selection and Training
