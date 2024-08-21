@@ -37,7 +37,7 @@ The dataset used for this project includes 2666 rows (customers) and 20 columns 
   - **Training Set**: Used for model training and cross-validation.
   - **Test Set**: Reserved for final model evaluation and to assess its performance on unseen data.
 
-![Alteryx Designer Cloud Workflow](Tableau Dashboards/ChurnAnalysis.png)
+![Alteryx Designer Cloud Workflow](TableauDashboards/ChurnAnalysis.png)
   
 
 ## Exploratory Data Analysis (EDA)
