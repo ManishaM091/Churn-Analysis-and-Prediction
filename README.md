@@ -123,14 +123,16 @@ Using the Alteryx AutoML evaluation and information gathered such as feature imp
 1. **Churn Analysis Dashboard**:
    - **State-wise Churn Visualization**: Interactive maps showing churn distribution across states, with filters to explore the impact of different features.
    - **Service Calls vs. Churn**: A bar chart correlating the number of customer service calls with churn rates, providing clear visual evidence of the relationship.
-   - **Charge Analysis**: Line graphs and scatter plots showing the relationship between various charges (day, evening, night, international) and churn rates.
+   - **Charge Analysis**: A heatgraph showing the relationship between various charges (day, evening, night, international) and churn rates.
    - **International Plan Analysis**: A comparative analysis of churn rates between customers with and without international plans with a pie chart.
   
 ![ChurnAnalysis](TableauDashboards/ChurnAnalysis.png)
   
 2. **Prediction Dashboard**:
-   - **Probability Distribution**: A overlapping histogram of churn prediction probabilities, segmented into risk categories.
+   - **Probability Distribution**: A overlapping histogram of churn prediction probabilities.
    - **Customer Segmentation**: Clustered visualizations of customer segments based on their predicted churn risk, providing actionable insights for targeted retention strategies.
+  
+![ChurnPredictionAnalysis](TableauDashboards/ChurnPredictionAnalysis.png)
 
 ## Key Insights and Recommendations
 ### Insights
@@ -144,9 +146,4 @@ Using the Alteryx AutoML evaluation and information gathered such as feature imp
 3. **Targeted Retention Strategies**: Use the model's predictions to identify high-risk customers and implement targeted retention campaigns, such as personalized offers or discounts for heavy day-time users.
 
 ## Conclusion
-The project successfully identified key drivers of customer churn and built a predictive model with strong performance metrics. The insights derived from the data and the model can be leveraged to implement effective churn reduction strategies, potentially leading to significant cost savings and improved customer satisfaction.
-
-## Files and Resources
-- **[Alteryx Workflow Screenshot](./workflow_screenshot.png)**: A visual representation of the data preparation and modeling process in Alteryx.
-- **[Tableau Dashboard Screenshot](./churn_analysis_dashboard.png)**: A screenshot of the Tableau dashboard illustrating the analysis.
-- **[Presentation on Model Insights](./aml_churnmodel.pptx)**: A PowerPoint presentation summarizing the model's performance, feature importance, and key insights.
+The project successfully identified key drivers of customer churn and built a predictive model with strong performance metrics using Alteryx autoML. The insights derived from the data and the model can be leveraged to implement effective churn reduction strategies, potentially leading to significant cost savings and improved customer satisfaction craeted using Tableau Public.
