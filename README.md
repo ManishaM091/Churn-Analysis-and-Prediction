@@ -100,24 +100,36 @@ The Alteryx AutoML provided a [PPT](AlteryxMachineLearningModel) which has the R
  
 ![Confusion](AlteryxMachineLearningModel/FeatureImportance.png)
 
-ALL THESE GRAPHS AND MODEL EVALUATION AS WELL AS INSIGHTS ARE PROVIDED BY ALTERYX AUTOML.
+THE MODEL EVALUATION PART OF THE PROJECT WITH ITS ROC, CONFUSION MATRIX AND FEATURE IMPORTANCE GRAPHS AS WELL AS INSIGHTS ARE PROVIDED BY ALTERYX AUTOML.
 
 ### Tableau Prediction Analysis
-- **Probability Distribution**:
-  - Customers were categorized based on their predicted churn probability. A clear distinction was observed between high-risk and low-risk customers.
-  - **High-Risk Segments**: Customers with high predicted probabilities (above 70%) were analyzed to identify common characteristics, such as high day charges and frequent customer service interactions.
-- **False Positives/Negatives**: Analyzed misclassified instances to further refine the model and understand potential areas for improvement.
 
-## Data Visualization
-### Tableau Dashboards
+Using the Alteryx AutoML evaluation and information gathered such as feature importance I did futher analysis for the predicted data by the model in tableau. Link to the [predicted data](AlteryxMachineLearningModel/predicted_data.csv)
+
+- **Probability Distribution**:
+  - The overlapping histogram with more data towards the edges indicate that the probabilities predicted give us definative results.
+
+![PD](TableauEDAworkbooks/PredictionProbablityDistribution.png)
+
+- **High-Risk Segments**: High risk segments such as customer service calls and international plan from different states effects the median prediction probabilities of churn.
+
+ ![ImpSections](TableauEDAworkbooks/Important Sections for prediction.png)  
+
+- **Actual and predicted Churn**: Analyzed actual and predicted chun which has less values in the middle indicating good modelling.
+
+![ActVsPredicted](TableauEDAworkbooks/PredictionVSActualChurn.png)  
+
+## Tableau Dashboards
 1. **Churn Analysis Dashboard**:
    - **State-wise Churn Visualization**: Interactive maps showing churn distribution across states, with filters to explore the impact of different features.
    - **Service Calls vs. Churn**: A bar chart correlating the number of customer service calls with churn rates, providing clear visual evidence of the relationship.
    - **Charge Analysis**: Line graphs and scatter plots showing the relationship between various charges (day, evening, night, international) and churn rates.
-   - **International Plan Analysis**: A comparative analysis of churn rates between customers with and without international plans.
+   - **International Plan Analysis**: A comparative analysis of churn rates between customers with and without international plans with a pie chart.
+  
+![ChurnAnalysis](TableauDashboards/ChurnAnalysis.png)
   
 2. **Prediction Dashboard**:
-   - **Probability Distribution**: A histogram of churn prediction probabilities, segmented into risk categories.
+   - **Probability Distribution**: A overlapping histogram of churn prediction probabilities, segmented into risk categories.
    - **Customer Segmentation**: Clustered visualizations of customer segments based on their predicted churn risk, providing actionable insights for targeted retention strategies.
 
 ## Key Insights and Recommendations
