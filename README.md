@@ -75,12 +75,14 @@ Both the datasets can be found in [Alteryx Desinger Cloud Folder](AlteryxDesigne
 
 All these Tableau workbooks are [here](TableauEDAworkbooks) and you can also check them on my [Tableau Public](https://public.tableau.com/app/profile/manisha.malhotra4221/vizzes)
 
-## Predictive Modeling
+## Alteryx Predictive Modeling
 ### Model Selection and Training
-- **Algorithm**: XGBoost, a gradient boosting decision tree algorithm, was chosen for its robustness and high performance in binary classification tasks.
-- **Training**: The model was trained on the `churn-80` dataset, with hyperparameters tuned using cross-validation to prevent overfitting.
+- **Algorithm**: Alteryx suggested XGBoost, a gradient boosting decision tree algorithm, was chosen for its robustness and high performance in tasks which are binary in nature.
+- **Training**: The model was trained on the `training` [dataset](AlteryxDesignerCloud/Training.csv) which was created though Alteryx designer cloud.
 
 ### Model Evaluation
+The Alteryx AutoML provided a [PPT](AlteryxMachineLearningModel/aml_churnmodel(1).pptx) which has the ROC curve, Confusion Matrix and the key features and its importance auto calculated the model.
+
 - **ROC Curve**: The ROC curve for the model indicated excellent discriminative ability, with an area under the curve (AUC) of 0.91, signifying a high true positive rate with minimal false positives.
 - **Confusion Matrix**:
   - **True Positives**: The model correctly identified 87% of the churned customers.
@@ -90,7 +92,7 @@ All these Tableau workbooks are [here](TableauEDAworkbooks) and you can also che
   - **Top Features**: Total day charge, customer service calls, and international plan were among the top features influencing the model's predictions.
   - **Insights**: These features highlight the importance of customer usage patterns and service satisfaction in predicting churn.
 
-### Prediction Analysis
+### Tableau Prediction Analysis
 - **Probability Distribution**:
   - Customers were categorized based on their predicted churn probability. A clear distinction was observed between high-risk and low-risk customers.
   - **High-Risk Segments**: Customers with high predicted probabilities (above 70%) were analyzed to identify common characteristics, such as high day charges and frequent customer service interactions.
