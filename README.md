@@ -52,7 +52,7 @@ Both the datasets can be found in [Alteryx Desinger Cloud Folder](AlteryxDesigne
   - **Top States**: Certain states exhibited significantly higher churn rates such as Texas, New Jersey and California.
   - **Insights**: States with higher churn rates often correlated with higher customer service call frequencies and larger customer bases, indicating potential service quality issues.
 
-![Churn Rate](StateVsChurn/TableauEDAworkbooks/StateVsChurn.png)
+![Churn Rate](TableauEDAworkbooks/StateVsChurn.png)
 
 ### Customer Service Calls vs. Churn Rate
 - **Correlation**: A strong positive correlation was observed between the number of customer service calls and the likelihood of churn. Customers who made more than 3 calls were significantly more likely to churn.
