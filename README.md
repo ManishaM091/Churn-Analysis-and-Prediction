@@ -4,7 +4,7 @@
 This project involves an in-depth analysis of customer churn within a telecom company, utilizing the Orange Telecom Churn Dataset from kaggle. The primary objective is to identify the key factors leading to customer churn and to develop a predictive model to accurately classify customers based on their likelihood to churn. The analysis and modeling efforts are supplemented with rich visualizations to provide actionable insights into customer behavior.
 
 ### Tools and Technologies
-- **Alteryx Designer Cloud**: For data preparation, feature engineering, creating workflow. and building the predictive model.
+- **Alteryx Designer Cloud**: For data preparation, feature engineering, creating workflow. 
 - **Alteryx AutoML Cloud**: XGBoost-A machine learning algorithm used for the classification model in this project.
 - **Tableau Public**: For creating dashboards and visualizations to analyze churn and present the model's findings.
 
